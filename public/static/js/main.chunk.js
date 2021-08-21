@@ -10807,7 +10807,7 @@
                 };
 
             function Xg() {
-                var e = Object($e.a)(["\n  height: 3rem;\n  width: 2rem;\n"]);
+                var e = Object($e.a)(["\n  height: 4.7rem;\n  width: 4.7rem;\n"]);
                 return Xg = function () {
                         return e
                     },
@@ -11213,7 +11213,7 @@
                 };
 
             function qT() {
-                var e = Object($e.a)(["\n  height: 3.7rem;\n  width: 3.7rem;\n"]);
+                var e = Object($e.a)(["\n  height: 4.7rem;\n  width: 4.7rem;\n"]);
                 return qT = function () {
                         return e
                     },
