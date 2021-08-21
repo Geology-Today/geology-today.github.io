@@ -1,0 +1,45 @@
+{
+    "name": "bscgeology-xyz",
+    "description": "just find gemz DeFi based on BSC Network.",
+    "homepage": "https://geology.today/",
+    "keywords": [
+        "polygon",
+        "matic",
+        "defi",
+        "solidity",
+        "farm"
+    ],
+    "main": "start.js",
+    "version": "1.1.6",
+    "license": "MIT",
+    "repository": "https://github.com/geology-today",
+    "telegram": "https://t.me/GeologyOfficial",
+    "twitter": "https://twitter.com/GeologyBSC",
+    "author": "theKid Lestrange <thekid@lestrange-house.com>",
+    "contributors": [],
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^1.0.6",
+        "connect-history-api-fallback": "^1.6.0",
+        "express": "^4.17.1",
+        "express-history-api-fallback": "^2.2.1",
+        "nuxt": "^2.14.6",
+        "route": "^0.2.5",
+        "solc": "^0.6.12",
+        "static": "^2.0.0",
+        "truffle": "^5.4.3",
+        "truffle-plugin-verify": "^0.5.11"
+    },
+    "scripts": {
+        "lint": "yarn prettier ./test/*.ts --check",
+        "lint:fix": "yarn prettier ./test/*.ts --write",
+        "clean": "rimraf ./build/",
+        "precompile": "yarn clean",
+        "pretest": "yarn compile",
+        "test": "mocha",
+        "prepublishOnly": "yarn test"
+    },
+    "devDependencies": {
+        "prettier": "^2.3.2",
+        "prettier-plugin-solidity": "^1.0.0-beta.17"
+    }
+}
