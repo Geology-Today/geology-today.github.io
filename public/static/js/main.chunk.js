@@ -10139,7 +10139,7 @@
                 };
 
             function Bb() {
-                var e = Object($e.a)(["\n  height: 3.7rem;\n  width: 3.7rem;\n"]);
+                var e = Object($e.a)(["\n  height: 4.7rem;\n  width: 4.7rem;\n"]);
                 return Bb = function () {
                         return e
                     },
@@ -11561,7 +11561,7 @@
                 };
 
             function nD() {
-                var e = Object($e.a)(["\n  height: 3.7rem;\n  width: 3.7rem;\n"]);
+                var e = Object($e.a)(["\n  height: 4.7rem;\n  width: 4.7rem;\n"]);
                 return nD = function () {
                         return e
                     },
