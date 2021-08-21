@@ -20753,7 +20753,7 @@
                         })
                     }))
                 })),
-                gk = "https://raw.githubusercontent.com/geologybsc/token-list-json/main/token-list.json",
+                gk = "https://raw.githubusercontent.com/Geology-Today/interface/main/public/token-lists/token-list.json",
                 Tk = [gk],
                 Dk = n(458),
                 Ik = {
